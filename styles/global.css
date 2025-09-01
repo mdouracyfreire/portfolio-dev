@@ -8,7 +8,7 @@
   /* Principal */
   --red: #E3646E;
   --purple: #BB72E9;
-  --blue: 3996DB;
+  --blue: #3996DB;
   --green: #82BC4F;
   --yellow: #EABD5F;
 
@@ -33,4 +33,36 @@
   
   --text-md: 400 16px/140% var(--font-family-text);
   --text-sm: 400 14px/140% var(--font-family-text);
+}
+
+body{
+  font: var(--text-sm);
+  color: var(--gray-200);
+  background: var(--gray-400);
+}
+
+h1{
+  font: inherit;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  color: var(--blue);
+}
+
+img{
+  max-width: 100%;
+}
+
+main{
+  max-width: 1366px;
+  margin-inline: auto;
+}
+
+.tag{
+  color: var(--red);
 }

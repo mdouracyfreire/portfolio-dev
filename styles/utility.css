@@ -1,0 +1,11 @@
+.grid{
+  display: grid;
+}
+
+.title-lg{
+  font: var(--title-lg);
+}
+
+.subtitle{
+  font: var(--subtitle);
+}
