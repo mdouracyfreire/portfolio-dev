@@ -38,7 +38,7 @@
 body{
   font: var(--text-sm);
   color: var(--gray-200);
-  background: var(--gray-400);
+  background: var(--gray-500);
 }
 
 h1{
@@ -54,15 +54,7 @@ a:hover{
   color: var(--blue);
 }
 
-img{
-  max-width: 100%;
-}
-
 main{
   max-width: 1366px;
   margin-inline: auto;
-}
-
-.tag{
-  color: var(--red);
 }

@@ -2,10 +2,22 @@
   display: grid;
 }
 
+.grid-flow-col{
+  grid-auto-flow: column;
+}
+
+.grid-cols-6{
+  grid-column: repeat(6, 1fr);
+}
+
 .title-lg{
   font: var(--title-lg);
 }
 
 .subtitle{
   font: var(--subtitle);
+}
+
+.color-red{
+  color: var(--red);
 }
