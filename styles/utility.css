@@ -2,16 +2,24 @@
   display: grid;
 }
 
-.grid-flow-col{
-  grid-auto-flow: column;
+.grid-cols-3{
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.grid-cols-6{
-  grid-column: repeat(6, 1fr);
+.gap-24{
+  gap: 24px;
 }
 
 .title-lg{
   font: var(--title-lg);
+}
+
+.title-md{
+  font: var(--title-md);
+}
+
+.title-sm{
+  font: var(--title-sm);
 }
 
 .subtitle{
@@ -20,4 +28,12 @@
 
 .color-red{
   color: var(--red);
+}
+
+.color-gray-100{
+  color: var(--gray-100);
+}
+
+.color-gray-300{
+  color: var(--gray-300);
 }
