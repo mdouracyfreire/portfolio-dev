@@ -120,3 +120,99 @@
     }
   }
 }
+
+#contacts{
+  padding-top: 128px;
+  position: relative;
+  width: 100%;
+  height: 787px;
+
+  &::before{
+    content: '';
+    background-image: url(../assets/images/Background_Contacts.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+  }
+
+  .contact-title{
+    text-align: center;
+
+    h2{
+      margin-block: 8px;
+    }
+  }
+
+  .contact-content{
+    max-width: 400px;
+    margin: 48px auto 0;
+
+    a{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 68px;
+      padding: 20px;
+      border-radius: 8px;
+      background-color: var(--gray-400);
+      border: 1.5px solid var(--gray-400);
+      cursor: pointer;
+
+      div{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+        div{
+          object-fit: contain;
+          width: 28px;
+          height: 28px;
+        }
+      }
+
+      &:nth-of-type(1) > div > div{
+        background-image: url(../assets/icons/LinkedinLogo.svg);
+      }
+
+      &:nth-of-type(2) > div > div{
+        background-image: url(../assets/icons/InstagramLogo.svg);
+      }
+
+      &:nth-of-type(3) > div > div{
+        background-image: url(../assets/icons/GithubLogo.svg);
+      }
+
+      &:nth-of-type(4) > div > div{
+        background-image: url(../assets/icons/EnvelopeSimple.svg);
+      }
+
+      &:hover{
+        border: 1.5px solid var(--blue);
+
+        &:nth-of-type(1) > div > div{
+          background-image: url(../assets/icons/LinkedinLogo-selected.svg);
+        }
+
+        &:nth-of-type(2) > div > div{
+          background-image: url(../assets/icons/InstagramLogo-selected.svg);
+        }
+
+        &:nth-of-type(3) > div > div{
+          background-image: url(../assets/icons/GithubLogo-selected.svg);
+        }
+
+        &:nth-of-type(4) > div > div{
+          background-image: url(../assets/icons/EnvelopeSimple-selected.svg);
+        }
+      }
+      
+      &>span{
+          background-image: url(../assets/icons/ArrowUpRight.svg);
+          width: 20px;
+          height: 20px;
+      }
+    }
+  }
+}

@@ -10,6 +10,10 @@
   gap: 24px;
 }
 
+.gap-16{
+  gap: 16px;
+}
+
 .title-lg{
   font: var(--title-lg);
 }
@@ -26,8 +30,16 @@
   font: var(--subtitle);
 }
 
+.text-md{
+  font: var(--text-md);
+}
+
 .color-red{
   color: var(--red);
+}
+
+.color-purple{
+  color: var(--purple);
 }
 
 .color-gray-100{
